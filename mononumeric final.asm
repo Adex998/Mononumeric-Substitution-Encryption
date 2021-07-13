@@ -143,11 +143,6 @@ next_byte:
     MOV AH, 2
     add dl,30h 
     INT 21h
-    
-    MOV DX, ','
-    LEA DX, DX
-    MOV AH, 2
-    INT 21h
  
  JMP next_byte
 jmp end_app 
